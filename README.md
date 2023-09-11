@@ -1,34 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+**README.md**
 
-## Getting Started
+---
 
-First, run the development server:
+# Pizza Fjoset Nettside
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Introduksjon
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Velkommen til kodebasen for Pizza Fjoset nettside! Dette prosjektet er bygd med Next.js og Tailwind CSS, og gir en moderne, responsiv nettside for pizzaelskere. Nettsiden gir kundene mulighet til å bestille sin favorittmat, betale for den, og sende bestillingen direkte til kassesystemet og kjøkkenet.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Funksjonaliteter
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Menyvisning:** Se vår varierte meny med forskjellige pizzavarianter, forretter og drikke.
+- **Bestillingsfunksjon:** Legg dine favorittretter i handlekurven og bestill med noen få klikk.
+- **Direkte sending til kasse og kjøkken:** Når en bestilling blir plassert, blir den automatisk sendt til vårt kassesystem og kjøkkenet for rask tilberedning.
+- **Betalingsintegrasjon:** Sikker betalingsløsning for en bekymringsfri bestilling.
+- **Responsiv Design:** Nettstedet er mobilvennlig og tilpasser seg alle skjermstørrelser.
 
-## Learn More
+## Teknologier
 
-To learn more about Next.js, take a look at the following resources:
+- **Next.js:** Et React-rammeverk som gir mulighet for server-side rendering og generering av statiske nettsider.
+- **Tailwind CSS:** Et utility-first CSS-rammeverk for å raskt bygge moderne brukergrensesnitt.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Kom i gang
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+For å sette opp prosjektet lokalt:
 
-## Deploy on Vercel
+1. Klone dette repositoriet.
+2. Installer avhengigheter med `npm install`.
+3. Kjør utviklingsserveren med `npm run dev`.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Besøk `http://localhost:3000` i nettleseren din for å se nettsiden.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Bidra
+
+Hvis du har forslag, feilrapporter eller vil bidra med kode, vennligst åpne en issue eller pull request.
+
+---
+
+Takk for at du valgte Pizza Fjoset for din kulinariske reise. God appetitt! 🍕
