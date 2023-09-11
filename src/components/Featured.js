@@ -8,10 +8,12 @@ export default function Featured() {
             <div className='w-max flex'>
                 {/*Single item*/}
                 {featuredProducts.map(item => (
-                    <div className='w-screen h-[60vh] flex flex-col items-center justify-around p-4 hover:bg-orange-50 transition-all duration-300 md:w-[50vw] xl:w-[33vw] xl:h-[90vh]'>
+                    <div
+                        className='w-screen h-[60vh] flex flex-col items-center justify-around p-4 hover:bg-orange-50 transition-all duration-300 md:w-[50vw] xl:w-[33vw] xl:h-[90vh]'>
                         {/*Image container*/}
                         {item.img && (
-                            <div key={item.id} className='relative flex-1 w-full hover:rotate-[60deg] transition-all duration-500'>
+                            <div key={item.id}
+                                 className='relative flex-1 w-full hover:rotate-[60deg] transition-all duration-500'>
                                 <Image
                                     src={item.img}
                                     alt='product'
